@@ -1,0 +1,12 @@
+{
+  "name": "rn-boilerplate-typescript",
+  "displayName": "rn-boilerplate-typescript",
+  "expo": {
+    "name": "rn-boilerplate-typescript",
+    "slug": "rn-boilerplate-typescript",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
