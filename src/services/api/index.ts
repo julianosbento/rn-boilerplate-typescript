@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 import { ApiRoutes } from '../../config/api/Routes';
-import { Headers } from '../../config/api/Api';
+import { Headers } from '../../config/api';
 
 const AxiosInstance = (
   baseURL: string,

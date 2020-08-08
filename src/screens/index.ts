@@ -1,3 +1,3 @@
-import ExampleScreen from './Example/Example';
+import ExampleScreen from './Example';
 
 export { ExampleScreen };

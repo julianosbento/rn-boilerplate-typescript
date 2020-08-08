@@ -1,7 +1,7 @@
 import { call, put } from 'redux-saga/effects';
 
 import { ApiRoutes } from '../../../config/api/Routes';
-import { Api } from '../../../services/api/Api';
+import { Api } from '../../../services/api';
 import { setExample } from './actions';
 
 export function* getExample() {

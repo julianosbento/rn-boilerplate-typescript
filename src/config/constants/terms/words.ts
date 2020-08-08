@@ -1,5 +1,3 @@
-const words = {
+export default {
   EXAMPLE: 'example',
 };
-
-export { words };

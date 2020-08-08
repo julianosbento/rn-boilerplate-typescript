@@ -1,4 +1,4 @@
-import { Colors } from './colors/Colors';
-import { Constants } from './constants/Constants';
+import { Colors } from './colors';
+import { Constants } from './constants';
 
 export { Colors, Constants };

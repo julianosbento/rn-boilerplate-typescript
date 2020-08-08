@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import { Text, View } from 'react-native';
+import { Text } from 'react-native';
 
+import { I18n, translate } from '../../lib';
 import { typedUseSelector } from '../../store';
 import { getExample } from '../../store/ducks/example/actions';
 
@@ -21,6 +22,7 @@ const ExampleScreen: React.FC = () => {
 
   return (
     <S.Container>
+      <Text>{translate('example')}</Text>
       <Text>{example}</Text>
     </S.Container>
   );

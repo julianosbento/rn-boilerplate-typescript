@@ -39,7 +39,7 @@ const wrap = {
   WRAP_REVERSE: 'wrap-reverse',
 };
 
-const style = {
+export default {
   ...borders,
   ...common,
   ...display,
@@ -47,5 +47,3 @@ const style = {
   ...position,
   ...wrap,
 };
-
-export { style };
